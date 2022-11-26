@@ -6,6 +6,6 @@ moringa school phase-one code challenge-0ne
 ├── speedDetector <br />
 │   └── index.js <br />
 └── studentGradeGenerator <br />
-    └── index.js <br />
+│    └── index.js <br />
 ├── LICENSE <br />
 ├── README.md <br />
