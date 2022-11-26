@@ -7,5 +7,10 @@ moringa school phase-one code challenge-0ne
 │   └── index.js <br />
 └── studentGradeGenerator <br />
 │    └── index.js <br />
+├── package.json<br />
 ├── LICENSE <br />
+
 ├── README.md <br />
+ 
+
+

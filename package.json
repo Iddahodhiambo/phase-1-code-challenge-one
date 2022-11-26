@@ -1,0 +1,25 @@
+{
+  "name": "phase-1-code-challenge-one",
+  "version": "1.0.0",
+  "description": "My first code challenge at moringa school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iddahodhiambo/phase-1-code-challenge-one.git"
+  },
+  "keywords": [
+    "if",
+    "else",
+    "javascript",
+    "repo"
+  ],
+  "author": "Iddah Awuor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iddahodhiambo/phase-1-code-challenge-one/issues"
+  },
+  "homepage": "https://github.com/Iddahodhiambo/phase-1-code-challenge-one#readme"
+}
