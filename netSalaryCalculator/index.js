@@ -5,12 +5,14 @@ function calculateNssf(grossSalary) {
     source of data:https://www.kra.go.ke/individual/calculate-tax/calculating-tax/paye
     nssf deduction is 6% of gross salary
     */
-   const nssfDeduction = grossSalary * (6/100);
+   const nssfDeduction = grossSalary * (6/100);//calculation of nssf which is 6 % of gross salary
    return nssfDeduction;
 }
 function calculateNhif(grossSalary) {
 
      // source of data: https://nasonga.com/new-nhif-rates/
+     //This is a functin to calculate the nhif which is deducted depending on gross salary range
+
    if(grossSalary >= 0 && grossSalary <= 5999) {
        return 150;
 }
@@ -22,7 +24,7 @@ else if(grossSalary>= 8000 && grossSalary <= 11999) {
 }
 else if(grossSalary >= 12000 && grossSalary <= 14999) {
     return  500;
-}else if(grossSalary >= 15000 && grossSalary <= 19999) {
+}else if(grossSalary >= 15000 && grossSalary <= 19999) { 
     return 600;
     
 }else if( grossSalary >= 20000 && grossSalary <= 24999) {
@@ -58,7 +60,7 @@ else if(grossSalary >= 40000 && grossSalary <= 44999){
 function calculatePaye(grossSalary) {
     
     if(grossSalary >= 0 && grossSalary <= 24000) {
-        let paye = grossSalary * (10/100) - 2400
+        let paye = grossSalary * (10/100) - 2400   //paye is charged based on gross salary range,the 2400 is the personal relief  deducted from paye
         return paye
     }  else if(grossSalary >= 24001 && grossSalary <= 32333) {
 paye = grossSalary * (25/100) - 2400;
@@ -76,7 +78,9 @@ function calculateNetSalary(grossSalary) {
      let paye = calculatePaye(grossSalary);
      let netSalary = grossSalary - paye - nhif -nssf;
      console.log(netSalary);
+     //this function calls other function to print net salary
+     
     
 }
-calculateNetSalary(24000);
+calculateNetSalary(24000);//run a gross salary of 24000  and it returned the expected output of 21,810  
 

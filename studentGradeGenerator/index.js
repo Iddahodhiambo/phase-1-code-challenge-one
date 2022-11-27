@@ -1,4 +1,5 @@
 function gradeStudent(marks) {
+    //function to calculate grades of the students based on their marks
     if(marks >= 80) {
         return "A";
     }else if(marks >= 60 &&  marks <= 79) {
@@ -11,16 +12,20 @@ function gradeStudent(marks) {
     }
     else{
         return "E";
+        
+
+
     }
 }
 
 
 function iInvokeGradesStudents(score) {
     if(score >= 0 && score <= 100) {
-        let grade = gradeStudent(score);
-        return grade;
+        let grade = gradeStudent(score);//assigning grade to gradeStudents function
+        console.log(grade)
 
     }else{
-        return "you entered wrong marks";
+        console.log("you entered wrong marks")
     }
 }
+iInvokeGradesStudents(90) //invoking students grades by running 90,the return was "A"
