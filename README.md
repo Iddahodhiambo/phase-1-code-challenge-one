@@ -1,10 +1,10 @@
-1.Title
+1.Title:
  phase-1-code-challenge-one
 
 2.Description:
 This is my first code challenge as software engineering student at moringa school f
 
-3.Poject setup
+3.Poject setu:
 
 ├── netSalaryCalculator <br />
 │   └── index.js <br />
