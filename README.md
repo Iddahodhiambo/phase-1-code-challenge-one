@@ -4,7 +4,7 @@
 2.Description:
 This is my first code challenge as software engineering student at moringa school f
 
-3.Poject setu:
+3.Poject setup:
 
 ├── netSalaryCalculator <br />
 │   └── index.js <br />
@@ -17,7 +17,7 @@ This is my first code challenge as software engineering student at moringa schoo
 ├── README.md <br />
  
 The above tree shows the structure of my assignment.There are three folders  each with an index.js file containing the solutions,the license and package.json containing my name as the author name and the licence.
-The first folder is the netSalary calculator that basically calculates the net salaries.I have drafted four functions in this  folder,for calculating nhif,nssf and paye and then invoking/calling this functions in the net salary function to get the correct net salary depending on the input.I ran a test with  a gross salary of 2ksh 4000 and got the correct net salary which was ksh 21,810.
+The first folder is the netSalary calculator that basically calculates the net salaries.I have drafted four functions in this  folder,for calculating nhif,nssf and paye and then invoking/calling this functions in the net salary function to get the correct net salary depending on the input.I ran a test(node index.js) with  a gross salary of ksh 24000 and got the correct net salary which was ksh 21,810.
 
 The second  folder ,the speedDetector contains two functions one one for finding the points awarded when speed is above 70 and onother function that invokes speed,I tested this solution with a speed of 1000 and got a response of "license suspended" which is what was expected since the points awarded are more than 12 which is the maximum.
 
